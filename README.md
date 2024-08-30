@@ -30,7 +30,7 @@ This function sorts and shuffles a playlist into a queue using a custom sorting 
 
 PseudoCode:
 
-function loadQueue(placeholderT, sortMethod)
+    function loadQueue(placeholderT, sortMethod)
 
     // Move the first element of placeholderT to the queue
     currentlyPlaying = REMOVE the first element from placeholderT
